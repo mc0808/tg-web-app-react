@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import './App.css';
 // import { useTelegram } from './hooks/useTelegram';
 import Header from './components/header/header';
-// import {Route, Routes } from 'react-router-dom';
+import {Route, Routes } from 'react-router-dom';
 // import Productlist from './components/productlist/productlist';
 // import Form from './components/form/form';
 
@@ -22,10 +22,10 @@ function App() {
     <div className="App">
      <Header/>
 
-    {/* <Routes>
+    <Routes>
       <Route index element = {<Productlist />} />
       <Route path = {'form'} element = {<Form />} />
-    </Routes> */}
+    </Routes>
     
     </div>
   );
