@@ -22,11 +22,10 @@ function App() {
     <div className="App">
      <Header/>
 
-     <Routes>
+    <Routes>
       <Route index element = {<Productlist />} />
       <Route path = {'form'} element = {<Form />} />
-
-     </Routes>
+    </Routes>
     
     </div>
   );
