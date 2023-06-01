@@ -1,4 +1,4 @@
-[[edge_functions]]
-form = "/*"
+[[redirects]]
+from = "/*"
 to = " /index.html"
 status = 200
