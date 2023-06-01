@@ -37,7 +37,6 @@ const Form = () => {
     return (
         <div className={'form'}>
 
-            jbfgkjdsbjgkbdnjksdnbkjgnkjngfk
             <h3>Введите ваши данные</h3>
             <input 
             type="text" 
