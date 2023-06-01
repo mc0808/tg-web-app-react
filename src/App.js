@@ -3,8 +3,8 @@ import './App.css';
 // import { useTelegram } from './hooks/useTelegram';
 import Header from './components/header/header';
 import {Route, Routes } from 'react-router-dom';
-// import Productlist from './components/productlist/productlist';
-// import Form from './components/form/form';
+import Productlist from './components/productlist/productlist';
+import Form from './components/form/form';
 
 const tg = window.Telegram.WebApp;
 
