@@ -16,14 +16,14 @@ const Form = () => {
 
     }, );
 
-    useEffect(() => {
-        if (!street || !country) {
-            tg.MainButton.hide();
-        } else {
-            tg.MainButton.show();
-        }
+    // useEffect(() => {
+    //     if (!street || !country) {
+    //         tg.MainButton.hide();
+    //     } else {
+    //         tg.MainButton.show();
+    //     }
 
-    },);
+    // },);
 
     const onChangeCountry =(e) => {
         setCountry (e.target.value)
