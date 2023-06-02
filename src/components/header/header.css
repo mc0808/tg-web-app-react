@@ -9,3 +9,10 @@
 .username {
     margin-left: auto;
 }
+
+.btn-header {
+    padding: 15px 25px;
+    background: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+    border: none;
+}
