@@ -93,11 +93,11 @@ const Form = () => {
 
     const onSendData = useCallback(() => {
         const data = {
-            country,
-            street,
-            subject
+            country: '',
+            street: '',
+            subject: ''
         }
-        // tg.sendData(JSON.stringify(data));
+        tg.sendData(JSON.stringify(data))
     },[country, street, subject],);
 
     useEffect(() => {
