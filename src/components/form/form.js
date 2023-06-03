@@ -14,7 +14,7 @@ const Form = () => {
             country,
             street,
             subject
-        }
+        };
         tg.sendData(JSON.stringify(data));
 
     },);
